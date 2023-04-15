@@ -19,7 +19,7 @@ const Body = () => {
             <div className="bodyProjects">
                 <div>
                     <Projects />
-                    <a href='https://github.com/kennyegun24/repositories' className='moreAboutMe hover'>More Proects</a>
+                    <a href='https://github.com/kennyegun24?tab=repositories' className='moreAboutMe hover'>More Projects</a>
                 </div>
             </div>
             <div className="bodySkills">

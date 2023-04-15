@@ -11,7 +11,7 @@ const Projects = () => {
         <div>
           {allProjects.map((proj) => (
             <div >
-              <div className='projectLilDiv flex alignCenter'>
+              <div className={`${proj.class} projectLilDiv flex alignCenter`}>
                 <aside data-aos={proj.data2} className='aside1'>
                   <div className='flex flexColumn'>
                     <h4>
@@ -19,9 +19,9 @@ const Projects = () => {
                     </h4>
                     <p>{proj.description2}</p>
                     <ul className='flex'>
-                      <li>CSS</li>
-                      <li>React.Js</li>
-                      <li>Firebase</li>
+                      {proj.technology.map((tech) => (
+                        <li>{tech}</li>
+                      ))}
                     </ul>
                     <div className='sourceLinks flex'>
                       <a href={proj.liveDemo} className='hover moreAboutMe'>Visite Site</a>

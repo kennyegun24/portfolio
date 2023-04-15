@@ -19,6 +19,7 @@
 .headDtls {
     color: var(--white);
     font-size: var(--4rem);
+    line-height: 6rem;
 }
 
 .headerCreate {
@@ -34,4 +35,10 @@
 .icons>a {
     color: var(--white);
     font-size: var(--1rem);
+}
+
+@media (min-width: 200px)and (max-width: 767px) {
+    .headDtls {
+        line-height: 3rem;
+    }
 }
