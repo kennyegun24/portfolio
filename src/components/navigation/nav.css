@@ -36,7 +36,7 @@
     }
 
     .navHeader h3 {
-        font-size: var(--2rem);
+        font-size: var(--3rem);
     }
 
     .showToggle {
@@ -44,7 +44,7 @@
     }
 
     .menuIcon {
-        font-size: var(--2rem);
+        font-size: var(--3rem);
     }
 
     .show {
