@@ -15,6 +15,11 @@
 
 .navHeader h3 {
     color: var(--light-blue-color2);
+    font-size: var(--2rem);
+}
+
+.showToggle {
+    display: none;
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
@@ -24,6 +29,22 @@
         padding: 1% 5%;
         color: var(--white);
         z-index: 99999;
+    }
+
+    .navHeader {
+        padding: var(--1point5rem);
+    }
+
+    .navHeader h3 {
+        font-size: var(--2rem);
+    }
+
+    .showToggle {
+        display: block;
+    }
+
+    .menuIcon {
+        font-size: var(--2rem);
     }
 
     .show {

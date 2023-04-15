@@ -15,6 +15,10 @@
     width: var(--100-percent);
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 .projectLilDiv {
     justify-content: space-between;
     width: var(--100-percent);

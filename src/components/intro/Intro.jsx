@@ -1,6 +1,7 @@
 import React from 'react'
 import './intro.css'
 import Typewriter from '../Typewriter'
+import CV from '../../assets/KennyCv.pdf'
 const Intro = () => {
     return (
         <div data-aos="fade-down" className='introMainDiv flex alignCenter justifyCenter flexColumn' id='about'>
@@ -18,10 +19,10 @@ const Intro = () => {
                     I have built several projects varying from different technologies and I always follow the best practices so I produce a well maintainable code as well as a fully functional webapp
                 </p>
                 <p>
-                    I learned how to code from an Online Coding School that is based in California
+                    I learned how to code from an Online Coding School that is based in California called Microverse.
                 </p>
             </div>
-            <a href='https://docs.google.com/document/d/1kR_5qE1F2t78_ZtiQOVQDxwLvF2d24Tv0wjmT4YIfI0/edit' className='hover margin-top-2rem moreAboutMe'>More About Me</a>
+            <a href={CV} download className='hover margin-top-2rem moreAboutMe'>Download my CV</a>
         </div>
     )
 }

@@ -6,7 +6,7 @@
 
 .contactForm {
     gap: var(--1rem);
-    width: var(--50-percent);
+    width: var(--70-percent);
 }
 
 .contactDiv>h2 {
@@ -16,12 +16,14 @@
 
 .contactForm>input {
     width: 80%;
+    font-size: var(--1rem);
     padding: 0.5rem;
 }
 
 .contactForm>textarea {
     width: 80%;
     padding: 0.5rem;
+    font-size: var(--1rem);
 }
 
 @media (min-width: 200px) and (max-width: 767px) {

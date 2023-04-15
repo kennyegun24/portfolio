@@ -38,7 +38,10 @@
     }
 
     .skillsDivSm {
-        justify-content: left;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
     }
 
     .skillsDivSm>div {
