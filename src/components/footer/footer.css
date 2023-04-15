@@ -1,0 +1,14 @@
+.footerDiv {
+    padding: 2% 5%;
+    background: var(--light-blue-color2);
+    color: var(--white);
+}
+
+.iconAside1 {
+    gap: 0.5rem;
+}
+
+.iconAside1 a {
+    color: var(--white);
+    font-size: var(--1point5rem);
+}

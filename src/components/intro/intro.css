@@ -1,0 +1,36 @@
+.introMainDiv {
+    height: var(--100vh);
+    width: var(--100-percent);
+}
+
+.introMainDiv>div {
+    width: 70%;
+    gap: var(--1rem);
+    margin-top: 5vh;
+}
+
+.introMainDiv>div>p {
+    font-size: var(--1point5rem);
+    color: var(--white-color-1);
+    width: var(--80-percent);
+}
+
+.moreAboutMe {
+    padding: var(--1rem);
+    border-radius: var(--1point5rem);
+    background-color: transparent;
+    border: 1px solid var(--light-blue-color2);
+    color: var(--light-blue-color);
+    font-size: 16px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.margin-top-2rem {
+    margin-top: var(--2rem);
+}
+
+.type {
+    color: var(--light-blue-color);
+    font-size: var(--3rem);
+}

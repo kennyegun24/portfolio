@@ -1,0 +1,31 @@
+.contactDiv {
+    width: var(--100-percent);
+    height: var(--100-percent);
+    gap: var(--2rem);
+}
+
+.contactForm {
+    gap: var(--1rem);
+    width: var(--50-percent);
+}
+
+.contactDiv>h2 {
+    color: var(--light-blue-color);
+    margin-top: 10vh;
+}
+
+.contactForm>input {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.contactForm>textarea {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .contactForm {
+        width: var(--100-percent);
+    }
+}
