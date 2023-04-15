@@ -1,0 +1,49 @@
+.navHeader {
+    padding: 1% 5%;
+    z-index: 99999;
+    background: var(--dark-blue-color);
+}
+
+.navigationBtns {
+    gap: var(--1point5rem);
+}
+
+.navigationBtns a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navHeader h3 {
+    color: var(--light-blue-color2);
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .toggle {
+        position: relative;
+        background: var(--dark-blue-color);
+        padding: 1% 5%;
+        color: var(--white);
+        z-index: 99999;
+    }
+
+    .show {
+        position: absolute;
+        bottom: 100%;
+        gap: var(--1rem);
+        background: var(--dark-blue-color);
+        padding: var(--2rem);
+        right: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .show>a {
+        color: #fff;
+        text-decoration: none;
+        transition: 1s ease-in-out;
+    }
+
+    .hide {
+        position: absolute;
+        right: -100%;
+    }
+}

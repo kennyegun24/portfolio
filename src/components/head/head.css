@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Header {
+    height: var(--100vh);
+    width: var(--100-percent);
+    padding: 2% 5%;
+    background: linear-gradient(to bottom, var(--dark-blue-color) var(--50-percent), var(--dark-blue-color2) var(--50-percent));
+}
+
+.name {
+    color: var(--light-blue-color2);
+}
+
+.headDtls {
+    color: var(--white);
+    font-size: var(--4rem);
+}
+
+.headerCreate {
+    font-size: 1.5rem;
+    color: var(--light-blue-color2);
+}
+
+.icons {
+    gap: 0.5rem;
+    margin-top: var(--1rem);
+}
+
+.icons>a {
+    color: var(--white);
+    font-size: var(--1rem);
+}

@@ -1,0 +1,38 @@
+.navMainDiv {
+    position: sticky;
+    top: 0;
+}
+
+.bodyDiv {
+    background: var(--dark-blue-color);
+}
+
+.bodyIntro {
+    width: var(--100-percent);
+}
+
+.bodyProjects {
+    width: var(--100-percent);
+    margin-bottom: var(--1point5rem);
+    width: 100%;
+}
+
+.bodyProjects>div>a {
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 auto var(--1rem) auto;
+}
+
+.bodyContact {
+    height: var(--100vh);
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .navMainDiv {
+        position: fixed;
+        width: var(--100-percent);
+        top: initial;
+        bottom: 0;
+    }
+
+}

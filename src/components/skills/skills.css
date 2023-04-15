@@ -1,0 +1,47 @@
+.skillsDiv {
+    gap: var(--2rem);
+    padding: var(--1rem);
+}
+
+.skillsDiv>h2 {
+    color: var(--white-color-1);
+    font-size: 1.5rem;
+    border-bottom: 10vh;
+}
+
+.skillsDivSm {
+    justify-content: space-evenly;
+    width: var(--100-percent);
+}
+
+.skillsDivSm>div {
+    gap: var(--1rem);
+}
+
+.skillsDivSm>div>h3 {
+    font-size: 1.2rem;
+    color: var(--light-blue-color);
+}
+
+.skillsDivSm>div>ul {
+    color: var(--white-color-1);
+    list-style-type: none;
+    gap: 0.8rem;
+}
+
+/* .skillsDivSm>div>ul>li {
+    color: #cfcece;
+} */
+@media (min-width: 200px) and (max-width: 767px) {
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .skillsDivSm {
+        justify-content: left;
+    }
+
+    .skillsDivSm>div {
+        margin-bottom: var(--2rem);
+    }
+}
