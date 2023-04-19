@@ -24,8 +24,8 @@ const Projects = () => {
                       ))}
                     </ul>
                     <div className='sourceLinks flex'>
-                      <a href={proj.liveDemo} className='hover moreAboutMe'>Visite Site</a>
-                      <a href={proj.sourceCode} className='hover moreAboutMe'>Source Code</a>
+                      <a href={proj.liveDemo} target="_blank" className='hover moreAboutMe'>Visite Site</a>
+                      <a href={proj.sourceCode} target="_blank" className='hover moreAboutMe'>Source Code</a>
                     </div>
                   </div>
                 </aside>
