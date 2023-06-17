@@ -24,13 +24,13 @@ const Projects = () => {
                       ))}
                     </ul>
                     <div className='sourceLinks flex'>
-                      <a href={proj.liveDemo} target="_blank" rel="noreferrer noopener" className='hover moreAboutMe'>Visite Site</a>
+                      {proj.liveDemo && <a href={proj.liveDemo} target="_blank" rel="noreferrer noopener" className='hover moreAboutMe'>Visit Site</a>}
                       <a href={proj.sourceCode} target="_blank" rel="noreferrer noopener" className='hover moreAboutMe'>Source Code</a>
                     </div>
                   </div>
                 </aside>
                 <aside data-aos={proj.data1} className='aside2'>
-                  <img style={{ width: '100%', objectFit: 'contain' }} src={proj.projectImage} alt="" />
+                  <img style={{ width: '100%', objectFit: 'contain', maxHeight: '500px' }} src={proj.projectImage} alt="" />
                 </aside>
               </div>
               <hr style={{ marginBottom: '3rem', marginTop: '3rem' }} />
