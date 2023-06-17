@@ -36,7 +36,7 @@ export const allProjects = [{
 {
     projectImage: notes,
     projectTitle: 'Mobile notes taking app',
-    description2: "A notes app built using React native for mmobile (android and IOS devices). This app was built using AsyncStorage which is a library used in saving things to local storage on mobile devices with react native. The user can take notes, edit existing notes and even delete notes too.",
+    description2: "A notes app built using React native for mmobile (android and IOS devices). This app was built using AsyncStorage which is a library used in saving things to local storage on mobile devices with react native. The user can take notes, edit existing notes and even delete notes too. This project does not have a live web version because it is a mobile application that runs only on IOS and Android.",
     technology: ['Stack navigator', 'javaScript', 'React Native', 'AsyncStorage'],
     sourceCode: 'https://github.com/kennyegun24/react-native-demo2',
     data1: 'fade-up',
